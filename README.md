@@ -6,7 +6,7 @@
 
 - [x] Create Docker container for website development
 - [ ] Create Ansible role for complete deployment
-- [ ] Site source will be hosted on Github
+- [x] Site source will be hosted on Github
 - [ ] Implement CSS tailwind
 - [ ] Does it work?
 
