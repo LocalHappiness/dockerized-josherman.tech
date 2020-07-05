@@ -3,7 +3,7 @@
 ## [Next.js](https://nextjs.org/) & [Typescript](https://www.typescriptlang.org/)
 ### Task-list for joshuaherman.tech
 
-- [x] Create Docker container for website development. [Many thanks to:](https://github.com/KumarAbhirup/dockerized)[![Twitter](https://img.shields.io/twitter/follow/kumar_abhirup.svg?style=social&label=@kumar_abhirup)](https://twitter.com/kumar_abhirup/)
+- [x] Create Docker container for website development. [Many Thanks: ](https://github.com/KumarAbhirup/dockerized)[![Twitter](https://img.shields.io/twitter/follow/kumar_abhirup.svg?style=social&label=@kumar_abhirup)](https://twitter.com/kumar_abhirup/)
 - [x] Create Ansible role for complete deployment
 - [x] Site source will be hosted on Github
 - [ ] Implement CSS tailwind

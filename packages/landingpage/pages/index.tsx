@@ -1,5 +1,5 @@
 import React from "react"
 
-const IndexPage = () => <h1>Josh you dockerized your app!</h1>
+const index = () => <h1>Details</h1>
 
-export default IndexPage
+export default index
