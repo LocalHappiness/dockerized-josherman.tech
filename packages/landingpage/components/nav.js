@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 const links = [
-  { href: 'https://github.com/vercel/next.js', label: 'GitHub' },
+  { href: 'https://github.com/LocalHappiness/dockerized-josherman.tech', label: 'GitHub' },
   { href: 'https://nextjs.org/docs', label: 'Docs' },
 ]
 
