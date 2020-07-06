@@ -6,8 +6,8 @@
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "lib": ["dom", "es2017"],
-    "module": "esnext",
+    "lib": ["dom", "esnext"],
+    "module": "ESNEXT",
     "moduleResolution": "node",
     "noEmit": true,
     "noFallthroughCasesInSwitch": true,
@@ -16,13 +16,14 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
-    "target": "esnext"
+    "target": "ESNEXT"
   },
   "exclude": ["node_modules"],
   "include": [
     "**/*.ts",
     "**/*.tsx",
     "pages/details.js",
-    "pages/[vehicle]/[person].js"
+    "pages/[vehicle]/[person].js",
+    "pages/index.js"
   ]
 }
