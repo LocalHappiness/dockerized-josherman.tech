@@ -1,16 +1,20 @@
-require('dotenv').config()
-
 module.exports = {
-  env: {
-    GA_TRACKING_ID: process.env.GA_TRACKING_ID,
+  webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
+    // Note: we provide webpack above so you should not `require` it
+    // Perform customizations to webpack config
+    // Important: return the modified config
+    config.plugins.push(new webpack.IgnorePlugin(/\/__tests__\//))
+    return config
   },
-  webpackDevMiddleware: config => {
+  webpackDevMiddleware: (config) => {
+    // Perform customizations to webpack dev middleware config
+    // Important: return the modified config
     config.watchOptions = {
-      poll: 1000,
-      aggregateTimeout: 300,
+      poll: 2000,
+      aggregateTimeout: 500,
     }
-    
     return config
   },
 }
+
 
