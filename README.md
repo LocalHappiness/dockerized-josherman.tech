@@ -13,32 +13,19 @@
 ### Start server and go to [localhost:3000](http://localhost:3000)
 
 ```bash
-#Install all dependicies locally
+#Create .env file at root for dockerfile
+touch .env
+#Create .env.local for next.js
 cd joshuaherman.tech/packages/landingpage
+cd touch .env.local
+#Install all dependicies locally
 npm install
-cd joshuaherman.tech
+#You can either deploy the docker container now or just use npm to start development of site
+#NPM
+cd joshuaherman.tech/packages/landingpage
+npm run dev
 
+#Docker
+cd joshuaherman.tech
 docker-compose up
 ```
-
-### Install Tailwind
-
-```bash
-npx tailwind init
-```
-
-### Configure Tailwind postcss.config.js
-
-```javascript
-module.exports = {
-  plugins: ['tailwindcss', 'postcss-preset-env'],
-};
-```
-
-NPM installs for PostCSS
-
-- [PostCSS Purgecss]("https://www.npmjs.com/package/@fullhuman/postcss-purgecss")
-- [tailwindcss](https://www.npmjs.com/package/tailwindcss)
-- [autoprefixer](https://www.npmjs.com/package/autoprefixer)
-
-### postcss.config.js
