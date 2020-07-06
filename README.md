@@ -1,6 +1,6 @@
 # **Creation of [joshuaherman.tech](www.joshuaherman.tech)**
 
-## [Next.js](https://nextjs.org/), [Tailwindcss](https://tailwindcss.com/) [Typescript](https://www.typescriptlang.org/)
+## [Next.js](https://nextjs.org/), [Tailwindcss](https://tailwindcss.com/), & [Typescript](https://www.typescriptlang.org/)
 
 ### Task-list for joshuaherman.tech
 
