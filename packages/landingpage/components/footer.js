@@ -1,16 +1,29 @@
-import Link from 'next/link'
+function Footer() {
+  return (
+    <footer className="bg-white">
+      <ul className="flex items-center justify-between max-w-4xl mx-auto p-4 md:p-8 text-sm text-black">
+        <li>
+          Created by{" "}
+          <a href="https://www.joshuaherman.tech" target="_blank" className="font-bold">
+            Joshua Herman
+          </a>
+        </li>
 
-const links = [
-  { href: 'https://github.com/LocalHappiness/dockerized-josherman.tech', label: 'GitHub' },
-  { href: 'https://nextjs.org/docs', label: 'Docs' },
-]
+        <li>
+          <a
+            href="https://github.com/LocalHappiness"
+            target="_blank"
+            className="font-bold"
+          >
+          <img
+            src="logos/GitHub.svg"
+            className="w-12 h-12"
+          />
+          </a>
+        </li>
+      </ul>
+    </footer>
+  );
+}
 
-export default function Footer() {
-    return (
-      <nav>
-        <div className="footer">
-          <strong className="footer-creator">Created by: Joshua Herman</strong>
-        </div>
-      </nav>
-    )
-  }
+export default Footer;
