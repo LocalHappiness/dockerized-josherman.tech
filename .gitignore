@@ -65,3 +65,5 @@ typings/
 .env.local
 # Nextjs
 .next
+
+.pdf

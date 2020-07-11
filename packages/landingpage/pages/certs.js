@@ -1,15 +1,12 @@
-import Nav from '../components/nav'
-import Footer from '../components/footer'
+import Layout from '../components/layout'
+import CertContainer from '../components/certGallery'
 
-export default function Certs() {
+export default function Certs () {
   return (
-    <div>
-      <Nav />
-      <div className="main-nav-container">
-        <h1 className="title">Certificates</h1>
+    <Layout>
+      <div>
+        <CertContainer />
       </div>
-      <Footer />
-    </div>
-
+    </Layout>
   )
 }

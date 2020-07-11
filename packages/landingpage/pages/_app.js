@@ -1,7 +1,9 @@
-import "../css/index.css";
-
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+import '../css/index.css'
+export function reportWebVitals (metric) {
+  console.log(metric)
+}
+function MyApp ({ Component, pageProps }) {
+  return <Component {...pageProps} />
 }
 
-export default MyApp;
+export default MyApp

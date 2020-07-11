@@ -1,21 +1,24 @@
-import Layout from "../components/layout";
+import Layout from '../components/layout'
 
-function IndexPage() {
+function IndexPage () {
   return (
     <Layout>
-      <div className="flex flex-col items-center justify-center">
-        <img
-          src="team-of-critters.svg"
-          className="w-full max-w-xl"
-          alt="Four one-eyed aliens playing"
-        />
-
-        <h2 className="p-3 my-8 text-lg font-bold bg-yellow-400 md:text-2xl">
-          Hi! Welcome to your first Next.js site.
+      <div className='flex flex-col items-center justify-center'>
+        <h2 className='p-3 my-8 text-lg md:text-2xl'>
+          Welcome to my site. Everything was created using
+          <a href="https://www.docker.com/" target="_blank"><strong> Docker</strong></a>,
+          <a href="https://nextjs.org/" target="_blank"><strong> Next.js</strong></a>,
+          <a href="https://reactjs.org/" target="_blank"><strong> React</strong></a>,
+          <a href="https://www.typescriptlang.org/" target="_blank"><strong> Typescript</strong></a>, and
+          <a href="https://tailwindcss.com/" target="_blank"><strong> Tailwindcss</strong></a>.
+          This was created to showcase my achievments and understanding of frontend and backend programming. 
+          If you would like to view the source please go to my 
+          <a href="https://github.com/LocalHappiness/dockerized-josherman.tech" target="_blank"><strong> GitHub </strong></a> 
+          . Thanks and enjoy!
         </h2>
       </div>
     </Layout>
-  );
+  )
 }
 
-export default IndexPage;
+export default IndexPage
