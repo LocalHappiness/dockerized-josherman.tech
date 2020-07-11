@@ -23,11 +23,11 @@ function AboutPage () {
           ))}
         </div>
 
-        <div className='md:w-1/2'>
+        <div className='md:max-w-xl  content-center'>
           <img
-            alt='A one-eyed alien holding a broken cable connected between a server and a desktop computer'
-            className='w-full'
-            src='critter.svg'
+            alt='Me'
+            className='border-orange-600 border-4  rounded-full h-64'
+            src='/self/me.jpg'
           />
         </div>
       </div>

@@ -10,7 +10,7 @@ function Layout (props) {
         <title>Joshua Herman</title>
       </Head>
       <Header />
-      <main className='flex-1 w-full max-w-6xl p-4 mx-auto md:px-8 md:py-16'>
+      <main className='flex-1 w-full max-w-6xl p-4 mx-auto md:px-8 md:py-8'>
         {props.children}
       </main>
       <Footer />

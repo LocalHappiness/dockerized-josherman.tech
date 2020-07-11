@@ -42,7 +42,7 @@ function Header () {
           ].map(navigationItem => (
             <li className='mt-3 md:mt-0 md:ml-6' key={navigationItem.title}>
               <Link href={navigationItem.route}>
-                <a className='block text-black'>{navigationItem.title}</a>
+                <a className='block text-black hover:text-blue-600'>{navigationItem.title}</a>
               </Link>
             </li>
           ))}
