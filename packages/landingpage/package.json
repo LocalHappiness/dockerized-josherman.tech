@@ -1,6 +1,6 @@
 {
     "name": "joshuatech-typescript",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "scripts": {
         "dev": "next",
         "build": "next build",
@@ -8,9 +8,9 @@
         "type-check": "tsc",
         "lint": "eslint **/**",
         "lint:fix": "eslint **/** --fix",
-        "test": "NODE_ENV=test jest --passWithNoTests --watch",
-        "test:ci": "NODE_ENV=test jest --passWithNoTests",
-        "test:js": "standard 'pages/**/*.js' 'components/**/*.js'",
+        "jest": "NODE_ENV=test jest --passWithNoTests --watch",
+        "jest:ci": "NODE_ENV=test jest --passWithNoTests",
+        "test": "standard 'pages/**/*.js' 'components/**/*.js'",
         "fix:js": "standard --fix 'pages/**/*.js' 'components/**/*.js'"
     },
     "dependencies": {
@@ -28,13 +28,6 @@
         "@types/react": "^16.9.41",
         "@types/react-dom": "^16.9.8",
         "autoprefixer": "^9.8.4",
-        "eslint": "6.8.0",
-        "eslint-config-airbnb-typescript-prettier": "^3.1.0",
-        "eslint-plugin-react": "^7.20.3",
-        "standard": "*",
-        "prettier": "^2.0.5",
-        "tailwindcss": "^1.4.0",
-        "typescript": "^3.9.6"
-    },
-    "license": "ISC"
+        "license": "ISC"
+    }
 }
