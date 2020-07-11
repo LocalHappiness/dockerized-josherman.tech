@@ -8,9 +8,7 @@ function AboutPage () {
           {[
             {
               heading: 'My life',
-              body: `I'm , low-level CSS framework that gives you all
-              of the building blocks you need to build bespoke designs without any
-              annoying opinionated styles you have to fight to override.`
+              body: 'I\'m  always learning and constantly developing my skills.'
             },
             {
               heading: 'What is Next.js?',
