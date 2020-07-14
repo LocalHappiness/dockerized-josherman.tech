@@ -3,7 +3,7 @@ function Resume () {
     <div>
       <div>
         <h1>Resume</h1>
-        <h2>LKSJDFLKJSD FLIISDFJSIODUFIOSDOIFUSOIDUF</h2>
+        <h2>Hello world!</h2>
       </div>
     </div>
   )
