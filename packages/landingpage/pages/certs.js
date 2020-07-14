@@ -4,9 +4,7 @@ import CertContainer from '../components/certGallery'
 export default function Certs () {
   return (
     <Layout>
-      <div>
-        <CertContainer />
-      </div>
+      <CertContainer />
     </Layout>
   )
 }

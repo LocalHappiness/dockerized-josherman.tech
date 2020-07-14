@@ -5,3 +5,15 @@
 strong {
     @apply text-blue-600;
 }
+
+strong:hover {
+    @apply text-orange-600;
+}
+
+a:hover {
+    @apply text-orange-600;
+}
+
+svg:hover {
+    fill: #ffa500;
+}

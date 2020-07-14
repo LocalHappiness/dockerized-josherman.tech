@@ -24,16 +24,18 @@ const Buttons = () => {
 
   return (
     <>
-      <div className='flex flex-col md:flex-row bg-white'>
-        <div id='Certificate Image Selector' className='bg-white p-2 min-w-lg'>
+      <div className='flex flex-col md:flex-row'>
+        <div id='Certificate Image Selector' className='order-2 md:order-1 p-2'>
           {arrayOfCerts.map((cert) => (
             <div key={cert.name} className='flex-no-wrap flex-grow py-1'>
-              <button className='bg-blue-600 text-white rounded p-1  text-xs hover:bg-orange-600' onClick={() => setSRC(cert.src)}>{cert.name}</button>
+              <button className='bg-gray-900 w-64 text-white rounded p-1 text-xs hover:bg-orange-600 shadow-xl outline-none' onClick={() => setSRC(cert.src)}>{cert.name}</button>
             </div>
           ))}
         </div>
-        <div id='Image Viewer' className='bg-white'>
-          <img src={src} height='800' width='1000' />
+        <div id='Image Viewer' className='order-1 md:order-2 border-1 border-black shadow-xl max-h-screen h-full'>
+          <div className='bg-gray-900 h-6' />
+          <img src={src} width='700' />
+          <div className='bg-gray-900 h-6' />
         </div>
       </div>
     </>

@@ -6,8 +6,8 @@ function Header () {
 
   return (
     <header>
-      <div className='flex flex-wrap flex-col md:flex-row md:flex-no-wrap items-center md:justify-center max-w-4xl mx-auto p-1 md:p-1'>
-        <div className='flex items-center'>
+      <div className='flex flex-wrap flex-col md:flex-row md:flex-no-wrap items-center md:justify-center max-w-4xl mx-auto md:p-1'>
+        <div className='items-center'>
           <Link href='/'>
             <img
               src='logos/logo.svg'
@@ -23,6 +23,7 @@ function Header () {
             className='fill-current h-5 w-5'
             viewBox='0 0 20 20'
             xmlns='http://www.w3.org/2000/svg'
+            fill='#ffa500'
           >
             <title>Menu</title>
             <path d='M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z' />
@@ -40,9 +41,9 @@ function Header () {
             { title: 'Certifications', route: '/certs' }
 
           ].map(navigationItem => (
-            <li className='mt-3 md:mt-0 md:ml-6' key={navigationItem.title}>
+            <li className='md:mt-0 md:ml-6' key={navigationItem.title}>
               <Link href={navigationItem.route}>
-                <a className='block text-black hover:text-blue-600'>{navigationItem.title}</a>
+                <a className='block text-black hover:text-orange-600'>{navigationItem.title}</a>
               </Link>
             </li>
           ))}
