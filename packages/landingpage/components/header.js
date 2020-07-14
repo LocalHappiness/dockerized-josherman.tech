@@ -38,6 +38,7 @@ function Header () {
           {[
             { title: 'Home', route: '/' },
             { title: 'About', route: '/about' },
+            { title: 'Resume', route: '/resume' },
             { title: 'Certifications', route: '/certs' }
 
           ].map(navigationItem => (
