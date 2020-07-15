@@ -3,7 +3,7 @@ import BioCard from '../components/biocard'
 function AboutPage () {
   return (
     <Layout>
-      <div className='flex flex-col object-center md:flex-row md:space-x-6 md:space-y-0 bg-green-300'>
+      <div className='flex flex-col object-center md:flex-row md:space-x-6 md:space-y-0'>
         <BioCard />
         <div className='space-y-6 md:w-1/2'>
           {[
