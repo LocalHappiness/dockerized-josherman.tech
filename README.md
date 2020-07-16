@@ -1,5 +1,6 @@
 ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/verbingthen0un/joshuaherman.tech?style=for-the-badge)
 ![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/verbingthen0un/joshuaherman.tech?style=for-the-badge)
+![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/verbingthen0un/joshuaherman.tech?style=for-the-badge)
 
 # **Creation of [joshuaherman.tech](www.joshuaherman.tech)**
 
