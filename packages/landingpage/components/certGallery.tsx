@@ -20,7 +20,7 @@ const Buttons = () => {
   ]
   // Certificate Image Selector
   const [src, setSRC] = useState('/certs/blank.png')
-  // Fileter Certifactes By Category
+  // Filter Certificates By Category
 
   return (
     <>

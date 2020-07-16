@@ -1,8 +1,10 @@
+# **Dockerizing of [joshuaherman.tech](https://www.joshuaherman.tech)**
+
 ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/verbingthen0un/joshuaherman.tech?style=for-the-badge)
 ![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/verbingthen0un/joshuaherman.tech?style=for-the-badge)
 ![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/verbingthen0un/joshuaherman.tech?style=for-the-badge)
 
-# **Creation of [joshuaherman.tech](www.joshuaherman.tech)**
+[Docker Hub - verbingthen0un/joshuaherman.tech](https://hub.docker.com/r/verbingthen0un/joshuaherman.tech)
 
 ## [Next.js](https://nextjs.org/), [Tailwindcss](https://tailwindcss.com/), & [Typescript](https://www.typescriptlang.org/)
 
@@ -13,6 +15,20 @@
 - [x] Integrate with hub.docker.com for deployment
 - [x] Have my Docker images auto updated on server
 - [x] Does it work?
+
+### Starting server off of docker-hub
+
+```yaml
+joshtech:
+  image: verbingthen0un/joshuaherman.tech:latest
+  container_name: joshtech
+  restart: unless-stopped
+  hostname: joshtech
+  security_opt:
+    - no-new-privileges:true
+  ports:
+    - '3000:3000'
+```
 
 ### Start server and go to [localhost:3000](http://localhost:3000)
 
@@ -32,4 +48,6 @@ npm run dev
 #Docker will start in production mode
 cd joshuaherman.tech
 docker-compose up
+#If rebuilding the image make sure to use
+docker-compose up --build
 ```

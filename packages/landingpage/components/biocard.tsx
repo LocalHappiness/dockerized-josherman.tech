@@ -1,4 +1,4 @@
-export function BioCard () {
+export default function BioCard () {
   return (
     <>
       <div className='flex flex-col bg-white w-64'>
@@ -32,5 +32,3 @@ export function BioCard () {
     </>
   )
 }
-
-export default BioCard

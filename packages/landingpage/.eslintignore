@@ -1,13 +1,5 @@
 .next
-node_modules/
-package-lock.json
-package.json
-.eslintrc.js
-next.config.js
-tailwind.config.js
-postcss.config.js
 public
-yarn.lock
-
-
+node_modules/
+*.json
 *.js
