@@ -11,15 +11,8 @@ module.exports = {
     // Important: return the modified config
     config.watchOptions = {
       poll: 2000,
-      aggregateTimeout: 500,
+      aggregateTimeout: 500
     }
     return config
-  },
+  }
 }
-const withMDX = require('@next/mdx')({
-  extension: /\.mdx?$/
-})
-module.exports = withMDX({
-  pageExtensions: ['js', 'jsx', 'md', 'mdx']
-})
-
