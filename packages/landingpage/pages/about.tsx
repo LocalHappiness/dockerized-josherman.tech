@@ -1,6 +1,6 @@
 import Layout from '../components/layout'
 import BioCard from '../components/biocard'
-function AboutPage () {
+export default function AboutPage () {
   return (
     <Layout>
       <div className='flex flex-col object-center md:flex-row md:space-x-6 md:space-y-0'>
@@ -26,5 +26,3 @@ function AboutPage () {
     </Layout>
   )
 }
-
-export default AboutPage

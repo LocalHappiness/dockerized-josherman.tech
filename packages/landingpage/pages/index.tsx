@@ -1,6 +1,6 @@
 import Layout from '../components/layout'
 
-function IndexPage () {
+export default function IndexPage () {
   return (
     <Layout>
       <div className='flex flex-col items-center justify-center'>
@@ -20,5 +20,3 @@ function IndexPage () {
     </Layout>
   )
 }
-
-export default IndexPage

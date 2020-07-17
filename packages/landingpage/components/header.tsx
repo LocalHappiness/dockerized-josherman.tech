@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { useState } from 'react'
 
-function Header () {
+export default function Header () {
   const [isExpanded, toggleExpansion] = useState(false)
 
   return (
@@ -53,5 +53,3 @@ function Header () {
     </header>
   )
 }
-
-export default Header

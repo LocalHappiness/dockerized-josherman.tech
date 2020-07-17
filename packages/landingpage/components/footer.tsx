@@ -1,4 +1,4 @@
-function Footer () {
+export default function Footer () {
   return (
     <footer className='flex flex-col w-full justify-evenly md:flex-row flex-no-wrap mx-auto p-2 md:p-4'>
       <div>
@@ -23,5 +23,3 @@ function Footer () {
     </footer>
   )
 }
-
-export default Footer
