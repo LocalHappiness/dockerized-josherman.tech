@@ -1,8 +1,15 @@
+/* ==================
+ TAILWINDCSS
+===================== */
 /* purgecss start ignore */
 @tailwind base;
 @tailwind components;
 /* purgecss end ignore */
 @tailwind utilities;
+
+/* ==================
+ GLOBAL STYLES
+===================== */
 
 strong {
     @apply text-blue-600;
@@ -18,4 +25,42 @@ a:hover {
 
 svg:hover {
     fill: #ffa500;
+}
+
+/* ==================
+ RESUME STYLES
+===================== */
+
+.rName {
+    @apply text-black font-bold text-center text-4xl;
+}
+
+.rContact {
+    @apply text-center;
+}
+
+.rLink {
+    @apply text-blue-600;
+}
+
+.rDetail,
+.rDetail:hover {
+    @apply text-black font-semibold text-center;
+}
+
+.rDivider {
+    @apply flex-grow h-px my-2 bg-black;
+}
+
+.rAction {
+    @apply text-black font-bold text-2xl;
+}
+
+.rPosition,
+.rPosition:hover {
+    @apply text-black font-semibold;
+}
+
+.rList {
+    @apply list-disc list-inside leading-relaxed;
 }
