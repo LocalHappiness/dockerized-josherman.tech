@@ -12,7 +12,7 @@ export default function Resume () {
       <ul>
         <li className='rList'>Troubleshooting of RS-232, RS-485, Ethernet networks</li>
         <li className='rList'>Reading and applying complex documentation for site installs</li>
-        <li className='rList'>Building spreadsheets for clients and employees for site networks configurations</li>
+        <li className='rList'>Building spreadsheets for clients and employees for site network configurations</li>
       </ul>
       <p><strong className='rPosition'>Financial Service Representative, First Interstate Bank</strong><em> (March 2016 – August 2019)</em></p>
       <p>My position was a universal banker who helped clients open consumer and business accounts other duties were helping them with all banking information.</p>
@@ -22,14 +22,14 @@ export default function Resume () {
         <li className='rList'>Dealing with large amounts of money and transactions</li>
       </ul>
       <p><strong className='rPosition'>Apprentice Electrician, N.E.W. Electric</strong><em> (June 2014 – May 2015)</em></p>
-      <p>Worked with journeyman electricians installing and repairing electrical equipment for the energy sector.</p>
+      <p>Worked with a team of electricians primarily building complete battery sites in North Dakota.</p>
       <ul>
         <li className='rList'>Installing and repairing electrical equipment ranging from VFDs to lighting</li>
         <li className='rList'>Troubleshooting electrical issues both high and low voltage</li>
         <li className='rList'>Reading technical diagrams for installs</li>
       </ul>
       <p><strong className='rPosition'>Shop Foreman, Tri-State Industries</strong><em> (June 2005 – May 2014)</em></p>
-      <p>Managed an entire shop of 10-20 people fabricating and installing metering units for coal bed methane and oil.</p>
+      <p>Managed an entire shop of 10-20 people fabricating and installing metering units for coal-bed methane and oil.</p>
       <ul>
         <li className='rList'>Translated project ideas to man hours required to complete</li>
         <li className='rList'>Was responsible for the training and management of new hires</li>
