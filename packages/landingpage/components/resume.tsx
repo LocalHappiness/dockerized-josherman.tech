@@ -12,7 +12,7 @@ export default function Resume () {
       <ul>
         <li className='rList'>Troubleshooting of RS-232, RS-485, Ethernet networks</li>
         <li className='rList'>Reading and applying complex documentation for site installs</li>
-        <li className='rList'>Building spreadsheets for clients and employees for site network configurations</li>
+        <li className='rList'>Documenting and spreadsheeting network configurations for clients and employees for site</li>
       </ul>
       <p><strong className='rPosition'>Financial Service Representative, First Interstate Bank</strong><em> (March 2016 – August 2019)</em></p>
       <p>My position was a universal banker who helped clients open consumer and business accounts other duties were helping them with all banking information.</p>
