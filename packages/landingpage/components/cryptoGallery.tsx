@@ -1,7 +1,7 @@
 export default function CryptoGallery () {
   const arrayOfCrypto = [
     { name: 'BITCOIN', bgcolor: 'bg-orange-500', txcolor: 'hover:text-orange-500', address: '34CJekTFQh5wSu7e3SAMYZVHkmU3J3TG7m', src: '/crypto/bitcoin.png' },
-    { name: 'ETHERIUM', bgcolor: 'bg-green-500', txcolor: 'hover:text-green-500', address: '0x2a3dfbc1893f583692aabcfd53a83242aef85b36', src: '/crypto/etherium.png' },
+    { name: 'ETHERIUM', bgcolor: 'bg-green-500', txcolor: 'hover:text-green-500', address: '0x5c861C46131a6b5e8bBE62AC0758bABC0102965B', src: '/crypto/etherium.png' },
     { name: 'LTC', bgcolor: 'bg-blue-500', txcolor: 'hover:text-blue-500', address: 'MVKCEJEXrkU7TPqZkP59RUWdGX923JdJWP', src: '/crypto/ltc.png' },
     { name: 'CKB', bgcolor: 'bg-indigo-500', txcolor: 'hover:text-indigo-500', address: 'ckb1qyqwc7lt4896g4rkk730qlnefxpc7dqtutdsgqcfp3', src: '/crypto/ckb.png' },
     { name: 'DOGE', bgcolor: 'bg-yellow-500', txcolor: 'hover:text-yellow-500', address: 'DGs4Nk41pZoyym1hZAueMdHv27mEg454dS', src: '/crypto/doge.png' }
